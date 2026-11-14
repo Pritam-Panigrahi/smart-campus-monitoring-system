@@ -1,6 +1,7 @@
 fastapi==0.162.7
 uvicorn==0.54.0
 SQLAlchemy==2.1.8
+psycopg[binary]>=3.2,<4
 alembic==1.20.1
 python-dotenv==1.2.4
 APScheduler==3.11.0
