@@ -1,0 +1,2 @@
+import { Construction } from 'lucide-react'
+export function PlaceholderPage({ title }) { return <><section className="page-heading"><h2>{title}</h2><p>Campus monitoring workspace</p></section><section className="card placeholder-card"><Construction className="placeholder-icon" size={27} /><h3>Coming in a later phase</h3><p>This section has been reserved in the application foundation. Its monitoring tools and workflows have not been implemented yet.</p></section></> }

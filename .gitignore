@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node and frontend builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Tooling and operating system files
+.DS_Store
+.idea/
+.vscode/
